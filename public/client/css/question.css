@@ -1,0 +1,39 @@
+.question-box {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+}
+
+.question {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.toggle-answer {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.toggle-answer:hover {
+    background: #0056b3;
+}
+
+.answer {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+    display: none; /* Đáp án bị ẩn ban đầu */
+}
+
+.answer.visible {
+    display: block; /* Hiển thị đáp án khi thêm class `visible` */
+}
